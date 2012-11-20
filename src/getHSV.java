@@ -36,7 +36,7 @@ public class getHSV{
             		y_co = y;
             	}
             	CvScalar s=cvGet2D(hsv,y_co,x_co);                
-                System.out.println( "H:"+ s.val(0) + "S:" + s.val(1) + "V:" + s.val(2));
+                System.out.println( "H:"+ s.val(0) + " S:" + s.val(1) + " V:" + s.val(2));
             }
         };
         
