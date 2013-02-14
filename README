@@ -1,1 +1,5 @@
-Source Code for getting HSV color space value at the pixel on mouse hover.
+
+More information at http://opencvlover.blogspot.in/2013/02/hsv-values-of-image-pixel-using-javacv.html
+
+Source Code to get HSV color space value of image pixel on mouse hover.
+HSV valuse will be printed in consol.

@@ -22,7 +22,7 @@ public class getHSV{
 	
 	public static void main (String[] args){
 		
-		final IplImage src = cvLoadImage("resources/test.png");
+		final IplImage src = cvLoadImage("resources/test.png");//Images 'test.png' located under resource folder
 		cvNamedWindow("Image",CV_WINDOW_AUTOSIZE);
 		final IplImage hsv = cvCreateImage(cvGetSize(src), 8, 3);
 	    cvCvtColor(src, hsv, CV_BGR2HSV);
@@ -36,7 +36,7 @@ public class getHSV{
             		y_co = y;
             	}
             	CvScalar s=cvGet2D(hsv,y_co,x_co);                
-                System.out.println( "H:"+ s.val(0) + " S:" + s.val(1) + " V:" + s.val(2));
+                System.out.println( "H:"+ s.val(0) + " S:" + s.val(1) + " V:" + s.val(2));//Print values
             }
         };
         
