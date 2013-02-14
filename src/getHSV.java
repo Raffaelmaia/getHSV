@@ -22,7 +22,7 @@ public class getHSV{
 	
 	public static void main (String[] args){
 		
-		final IplImage src = cvLoadImage("test1.bmp");
+		final IplImage src = cvLoadImage("resources/test.png");
 		cvNamedWindow("Image",CV_WINDOW_AUTOSIZE);
 		final IplImage hsv = cvCreateImage(cvGetSize(src), 8, 3);
 	    cvCvtColor(src, hsv, CV_BGR2HSV);
